@@ -37,9 +37,8 @@
     _pagerViewController.delegate = self;
     _pagerViewController.itemFont = [UIFont systemFontOfSize:20];
     _pagerViewController.textColor = [UIColor redColor];
-//    _pagerViewController.itemHeight = 72;
-//    _pagerViewController.indicatorHeight = 6;
-    
+    _pagerViewController.itemHeight = 72;
+    _pagerViewController.indicatorHeight = 6;
     _pagerViewController.view.frame = self.view.frame;
     [self.view addSubview:_pagerViewController.view];
     
