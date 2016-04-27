@@ -87,7 +87,6 @@
 
 - (void)viewDidLayoutSubviews {
     [super viewDidLayoutSubviews];
-//    [self reloadFrame];
 }
 
 #pragma mark - UICollectionViewDataSource
@@ -161,21 +160,6 @@
 - (void)selectTabIndex:(NSUInteger)index {
      _collectionView.contentOffset = CGPointMake(self.view.frame.size.width * index, 0);
 }
-
-#pragma mark -
-- (void)reloadFrame {
-    NSLog(@"center.x:%f--frame:%@",_pageBar.center.x, _pageBar);
-    NSLog(@"centerY:%f",64 + (_pageBar.frame.size.height) * 0.5);
-    
-    _pageBar.center = CGPointMake(_pageBar.center.x, 64 + (_pageBar.frame.size.height) * 0.5);
-    _collectionView.frame = CGRectMake(0, CGRectGetMaxY(_pageBar.frame),
-                                   self.view.bounds.size.width,
-                                   self.view.bounds.size.height - CGRectGetMaxY(_pageBar.frame));
-
-    _collectionView.contentSize = CGSizeMake(self.view.bounds.size.width * _controllers.count, 0);
-     NSLog(@"collection:%@",_collectionView);
-}
-
 
 
 #pragma mark - ZZGPagerViewControllerDelegate
