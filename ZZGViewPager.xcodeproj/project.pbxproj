@@ -15,6 +15,13 @@
 		4931782A1CC4E51000FA8128 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493178281CC4E51000FA8128 /* LaunchScreen.storyboard */; };
 		493178351CC4E51000FA8128 /* ZZGViewPagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 493178341CC4E51000FA8128 /* ZZGViewPagerTests.m */; };
 		493178401CC4E51000FA8128 /* ZZGViewPagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4931783F1CC4E51000FA8128 /* ZZGViewPagerUITests.m */; };
+		4931784F1CC4E56100FA8128 /* ZZGFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4931784E1CC4E56100FA8128 /* ZZGFlowLayout.m */; };
+		493178531CC4E5B500FA8128 /* ZZGTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 493178521CC4E5B500FA8128 /* ZZGTabBar.m */; };
+		493178571CC4E61E00FA8128 /* ZZGTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 493178561CC4E61E00FA8128 /* ZZGTabBarItem.m */; };
+		4931785A1CC4E64B00FA8128 /* DemoViewControllerOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 493178591CC4E64B00FA8128 /* DemoViewControllerOne.m */; };
+		4931785E1CC4E66900FA8128 /* DemoViewControllerTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4931785D1CC4E66900FA8128 /* DemoViewControllerTwo.m */; };
+		493178611CC4E6A900FA8128 /* ZZGPagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 493178601CC4E6A900FA8128 /* ZZGPagerViewController.m */; };
+		493178641CC4E97800FA8128 /* ZZGCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 493178631CC4E97800FA8128 /* ZZGCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,20 @@
 		4931783B1CC4E51000FA8128 /* ZZGViewPagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZGViewPagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4931783F1CC4E51000FA8128 /* ZZGViewPagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZGViewPagerUITests.m; sourceTree = "<group>"; };
 		493178411CC4E51000FA8128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4931784D1CC4E56100FA8128 /* ZZGFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZZGFlowLayout.h; path = CollectionView/ZZGFlowLayout.h; sourceTree = "<group>"; };
+		4931784E1CC4E56100FA8128 /* ZZGFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZZGFlowLayout.m; path = CollectionView/ZZGFlowLayout.m; sourceTree = "<group>"; };
+		493178511CC4E5B500FA8128 /* ZZGTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZZGTabBar.h; path = TabBar/ZZGTabBar.h; sourceTree = "<group>"; };
+		493178521CC4E5B500FA8128 /* ZZGTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZZGTabBar.m; path = TabBar/ZZGTabBar.m; sourceTree = "<group>"; };
+		493178551CC4E61E00FA8128 /* ZZGTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZZGTabBarItem.h; path = TabBar/ZZGTabBarItem.h; sourceTree = "<group>"; };
+		493178561CC4E61E00FA8128 /* ZZGTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZZGTabBarItem.m; path = TabBar/ZZGTabBarItem.m; sourceTree = "<group>"; };
+		493178581CC4E64B00FA8128 /* DemoViewControllerOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DemoViewControllerOne.h; path = Demo/DemoViewControllerOne.h; sourceTree = "<group>"; };
+		493178591CC4E64B00FA8128 /* DemoViewControllerOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DemoViewControllerOne.m; path = Demo/DemoViewControllerOne.m; sourceTree = "<group>"; };
+		4931785C1CC4E66900FA8128 /* DemoViewControllerTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DemoViewControllerTwo.h; path = Demo/DemoViewControllerTwo.h; sourceTree = "<group>"; };
+		4931785D1CC4E66900FA8128 /* DemoViewControllerTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DemoViewControllerTwo.m; path = Demo/DemoViewControllerTwo.m; sourceTree = "<group>"; };
+		4931785F1CC4E6A900FA8128 /* ZZGPagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZZGPagerViewController.h; path = CollectionView/ZZGPagerViewController.h; sourceTree = "<group>"; };
+		493178601CC4E6A900FA8128 /* ZZGPagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZZGPagerViewController.m; path = CollectionView/ZZGPagerViewController.m; sourceTree = "<group>"; };
+		493178621CC4E97800FA8128 /* ZZGCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZZGCollectionViewCell.h; path = CollectionView/ZZGCollectionViewCell.h; sourceTree = "<group>"; };
+		493178631CC4E97800FA8128 /* ZZGCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZZGCollectionViewCell.m; path = CollectionView/ZZGCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +126,9 @@
 				4931781E1CC4E51000FA8128 /* AppDelegate.m */,
 				493178201CC4E51000FA8128 /* ViewController.h */,
 				493178211CC4E51000FA8128 /* ViewController.m */,
+				4931785B1CC4E64F00FA8128 /* Demo */,
+				493178541CC4E5B900FA8128 /* TabBar */,
+				493178501CC4E56400FA8128 /* CollectionView */,
 				493178231CC4E51000FA8128 /* Main.storyboard */,
 				493178261CC4E51000FA8128 /* Assets.xcassets */,
 				493178281CC4E51000FA8128 /* LaunchScreen.storyboard */,
@@ -138,6 +162,41 @@
 				493178411CC4E51000FA8128 /* Info.plist */,
 			);
 			path = ZZGViewPagerUITests;
+			sourceTree = "<group>";
+		};
+		493178501CC4E56400FA8128 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				4931784D1CC4E56100FA8128 /* ZZGFlowLayout.h */,
+				4931784E1CC4E56100FA8128 /* ZZGFlowLayout.m */,
+				4931785F1CC4E6A900FA8128 /* ZZGPagerViewController.h */,
+				493178601CC4E6A900FA8128 /* ZZGPagerViewController.m */,
+				493178621CC4E97800FA8128 /* ZZGCollectionViewCell.h */,
+				493178631CC4E97800FA8128 /* ZZGCollectionViewCell.m */,
+			);
+			name = CollectionView;
+			sourceTree = "<group>";
+		};
+		493178541CC4E5B900FA8128 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				493178511CC4E5B500FA8128 /* ZZGTabBar.h */,
+				493178521CC4E5B500FA8128 /* ZZGTabBar.m */,
+				493178551CC4E61E00FA8128 /* ZZGTabBarItem.h */,
+				493178561CC4E61E00FA8128 /* ZZGTabBarItem.m */,
+			);
+			name = TabBar;
+			sourceTree = "<group>";
+		};
+		4931785B1CC4E64F00FA8128 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				493178581CC4E64B00FA8128 /* DemoViewControllerOne.h */,
+				493178591CC4E64B00FA8128 /* DemoViewControllerOne.m */,
+				4931785C1CC4E66900FA8128 /* DemoViewControllerTwo.h */,
+				4931785D1CC4E66900FA8128 /* DemoViewControllerTwo.m */,
+			);
+			name = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +329,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4931785E1CC4E66900FA8128 /* DemoViewControllerTwo.m in Sources */,
+				493178571CC4E61E00FA8128 /* ZZGTabBarItem.m in Sources */,
 				493178221CC4E51000FA8128 /* ViewController.m in Sources */,
 				4931781F1CC4E51000FA8128 /* AppDelegate.m in Sources */,
+				493178531CC4E5B500FA8128 /* ZZGTabBar.m in Sources */,
+				4931785A1CC4E64B00FA8128 /* DemoViewControllerOne.m in Sources */,
+				493178611CC4E6A900FA8128 /* ZZGPagerViewController.m in Sources */,
 				4931781C1CC4E51000FA8128 /* main.m in Sources */,
+				493178641CC4E97800FA8128 /* ZZGCollectionViewCell.m in Sources */,
+				4931784F1CC4E56100FA8128 /* ZZGFlowLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
