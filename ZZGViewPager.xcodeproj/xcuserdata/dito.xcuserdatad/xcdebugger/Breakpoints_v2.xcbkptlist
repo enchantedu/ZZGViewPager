@@ -47,8 +47,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "200"
             endingLineNumber = "200"
-            landmarkName = "-setDataSource:"
-            landmarkType = "5">
+            landmarkName = "@implementation ZZGPagerViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -142,9 +142,7 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "203"
-            endingLineNumber = "203"
-            landmarkName = "-setDataSource:"
-            landmarkType = "5">
+            endingLineNumber = "203">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
